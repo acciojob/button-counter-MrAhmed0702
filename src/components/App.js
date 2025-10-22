@@ -3,10 +3,10 @@ import React from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const ["click", "SetClick"] = useState(0);
+  const [click, setClick] = useState(0);
 
   function increment(){
-    return SetClick + 1;
+    return SetClick(click + 1);
   }
   
   return (
