@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <p>Button clicked {click} times</p>
-      <button onclick={increment}>Increment</button>
+      <button onClick={increment}>Increment</button>
     </div>
   )
 }
